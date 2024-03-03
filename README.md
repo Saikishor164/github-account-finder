@@ -16,6 +16,9 @@ GitHub Account Finder is a simple web application that allows users to search an
 - CSS
 - JavaScript
 
+## API Used
+https://api.github.com/user/user_name
+
 ## Usage
 
 To use GitHub Account Finder, simply open the `index.html` file in your web browser, enter a GitHub username in the search box, and click the "Search User" button. The application will fetch and display the user's profile information.
