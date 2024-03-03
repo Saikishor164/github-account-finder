@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lobster Two', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search:hover {
+    background-color: #0056b3;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.main-info {
+    margin-bottom: 20px;
+}
+
+.main-info img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bio {
+    margin-bottom: 20px;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+}
+
+.follow .followers, .follow .following {
+    margin: 0 10px;
+}
+
+.follow .no {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
