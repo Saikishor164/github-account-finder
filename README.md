@@ -5,7 +5,7 @@ GitHub Account Finder is a simple web application that allows users to search an
 ![GitHub Account Finder Screenshot](github-account-finder.jpg)
 
 ## Features
-
+ 
 - **User Search:** Enter a GitHub username to search for and display their profile information.
 - **Profile Display:** View the user's avatar, username, bio, number of repositories, followers, and following.
 - **Responsive Design:** The application is designed to be responsive and works well on various devices and screen sizes.
